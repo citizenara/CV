@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(121, 81, 81);
+    display: flex;
+}
+
+header img{
+    width: 125px;
+}
+
+.infopersonal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infopersonal p{
+    font-size: 10px;
+    text-align: center;
+}
+
+
+section{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    background-color: aqua;
+    height: auto;
+    display: flex;
+}
+.right{
+    width: 50%;
+    background-color: rgb(177, 176, 183);
+}
+
+.left{
+    width: 50%;
+    background-color: rgb(133, 133, 190);
+}
+
+aside h2{
+    text-align: center;
+}
